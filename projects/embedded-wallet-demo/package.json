@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@algorandfoundation/algokit-utils": "^9.0.1",
     "@blockshake/defly-connect": "^1.2.1",
     "@perawallet/connect": "^1.4.2",
     "@tailwindcss/vite": "^4.1.0",
+    "@tanstack/react-query": "^5.74.3",
     "@txnlab/use-wallet-react": "^4.0.1",
     "@txnlab/use-wallet-ui-react": "^0.2.1",
     "@txnlab/utils-ts": "^0.1.0",
