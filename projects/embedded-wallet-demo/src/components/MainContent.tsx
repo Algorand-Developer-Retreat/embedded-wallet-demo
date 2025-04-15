@@ -1,7 +1,6 @@
 // components/MainContent.tsx
 import { WalletQR } from "./WalletQR";
 import { WalletDetails } from "./WalletDetails";
-import { useQuery } from "@tanstack/react-query";
 
 interface MainContentProps {
   address: string | null;
