@@ -59,6 +59,9 @@ importers:
       tailwindcss:
         specifier: ^4.0.17
         version: 4.1.4
+      tsc:
+        specifier: ^2.0.4
+        version: 2.0.4
     devDependencies:
       '@types/react':
         specifier: ^19.0.10
@@ -2159,6 +2162,10 @@ packages:
 
   ts-morph@20.0.0:
     resolution: {integrity: sha512-JVmEJy2Wow5n/84I3igthL9sudQ8qzjh/6i4tmYCm6IqYyKFlNbJZi7oBdjyqcWSWYRu3CtL0xbT6fS03ESZIg==}
+
+  tsc@2.0.4:
+    resolution: {integrity: sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==}
+    hasBin: true
 
   tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
@@ -4800,6 +4807,8 @@ snapshots:
     dependencies:
       '@ts-morph/common': 0.21.0
       code-block-writer: 12.0.0
+
+  tsc@2.0.4: {}
 
   tslib@1.14.1: {}
 
